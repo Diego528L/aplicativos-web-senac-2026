@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link"; 
 import { useState } from 'react';
 import { somar } from '../../actions/Calculadora/soma';
 import { subtrair } from '../../actions/Calculadora/subtrair';
