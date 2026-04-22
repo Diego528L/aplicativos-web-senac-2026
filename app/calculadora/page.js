@@ -43,14 +43,14 @@ export default function Calculadora() {
       <h1 className="text-3xl">Calculadora</h1>
       <input
         type="number"
-        className="border-2 m-5"
+        className="border-2 text-black m-5"
         placeholder="Valor A"
         value={valorA}
         onChange={(e) => setValorA(e.target.value)}
       />
       <input
         type="number"
-        className="border-2"
+        className="border-2 text black "
         placeholder="Valor B"
         value={valorB}
         onChange={(e) => setValorB(e.target.value)}
