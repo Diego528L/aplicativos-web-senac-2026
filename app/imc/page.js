@@ -42,7 +42,7 @@ export default function calcularIMC() {
       <div className="bg-blue-300 flex flex-col w-80 h-auto items-center justify-center border p-5">
         <h2>Digite seu peso (kg):</h2>
         <input 
-          className="border border-gray-500 bg-amber-50 w-50 h-10 mt-2" 
+          className="border text-black border-gray-500 bg-amber-50 w-50 h-10 mt-2" 
           type="number" 
           placeholder="Digite seu peso" 
           name="peso"
@@ -52,7 +52,7 @@ export default function calcularIMC() {
        
         <h2 className="mt-4">Digite sua altura (m):</h2>
         <input 
-          className="border border-gray-500 bg-amber-50 w-50 h-10 mt-2" 
+          className="border text-black border-gray-500 bg-amber-50 w-50 h-10 mt-2" 
           type="number" 
           placeholder="Digite sua altura" 
           name="altura"
