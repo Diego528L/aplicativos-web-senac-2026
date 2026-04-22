@@ -61,14 +61,14 @@ export default function calcularIMC() {
         />
        
         <button 
-          className="bg-green-500 hover:bg-green-700 text-white w-48 font-bold py-2 px-4 rounded mt-4"
+          className="bg-green-500  hover:bg-green-700 text-black w-48 font-bold py-2 px-4 rounded mt-4"
           onClick={handleCalcularIMC}
         >
           Calcular IMC
         </button>
         
         <button 
-          className="bg-orange-500 hover:bg-orange-700 text-white w-48 font-bold py-2 px-4 rounded mt-4"
+          className="bg-orange-500 hover:bg-orange-700 text-black w-48 font-bold py-2 px-4 rounded mt-4"
           onClick={limparIMC}
         >
           Limpar
