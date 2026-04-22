@@ -63,11 +63,11 @@
       return (
         <div className="bg-blue-400 rounded-2xl inter flex flex-col items-center justify-center m-5 p-5">
           <div className="inter flex flex-col items-center justify-center m-5 w-full max-w-md">
-            <h1 className="text-3xl">Ficha do Aluno</h1>
+            <h1 className="text-3xl text-black">Ficha do Aluno</h1>
 
-            <h2 className="mt-4">Nome:</h2>
+            <h2 className="mt-4 text-black">Nome:</h2>
             <input
-              className="border border-gray-500 bg-amber-50 w-full h-10 p-2 rounded"
+              className="border border-gray-500 text-black  bg-amber-50 w-full h-10 p-2 rounded"
               type="text"
               placeholder="digite o nome do aluno"
               name="nomeAluno"
@@ -75,9 +75,9 @@
               onChange={(e) => setNome(e.target.value)}
             />
 
-            <h2 className="mt-4">Email:</h2>
+            <h2 className="mt-4 text-black">Email:</h2>
             <input
-              className="border border-gray-500 bg-amber-50 w-full h-10 p-2 rounded"
+              className="border border-gray-500 text-black  bg-amber-50 w-full h-10 p-2 rounded"
               type="email"
               placeholder="digite o email do aluno"
               name="email"
@@ -85,9 +85,9 @@
               onChange={(e) => setEmail(e.target.value)}
             />
 
-            <h2 className="mt-4">Idade:</h2>
+            <h2 className="mt-4 text-black">Idade:</h2>
             <input
-              className="border border-gray-500 bg-amber-50 w-full h-10 p-2 rounded"
+              className="border border-gray-500 text-black  bg-amber-50 w-full h-10 p-2 rounded"
               type="number"
               placeholder="digite a idade do aluno"
               name="idade"
@@ -95,9 +95,9 @@
               onChange={(e) => setIdade(e.target.value)}
             />
 
-            <h2 className="mt-4">Telefone:</h2>
+            <h2 className="mt-4 text-black">Telefone:</h2>
             <input
-              className="border border-gray-500 bg-amber-50 w-full h-10 p-2 rounded"
+              className="border border-gray-500 text-black  bg-amber-50 w-full h-10 p-2 rounded"
               type="tel"
               placeholder="digite o telefone do aluno"
               name="telefone"

@@ -33,6 +33,7 @@ export default function Home() {
         </button>
       </div>
 
+
       <div className="flex justify-center space-x-4 mt-4">
         <button className="bg-pink-500 hover:bg-pink-700 text-white w-48 font-bold py-2 px-4 rounded">
           <a href="/imc">Calcular IMC</a>
@@ -45,11 +46,63 @@ export default function Home() {
         </button>
       </div>
 
+      
+
       <div className="flex justify-center space-x-4 mt-4">
         <button className="bg-cyan-500 hover:bg-cyan-700 text-white w-48 font-bold py-2 px-4 rounded">
           <a href="/abc">ABC</a>
         </button>
       </div>
+      <div className="flex justify-center space-x-4 mt-4">
+        <button className="bg-red-300 hover:bg-red-700 text-white w-48 font-bold py-2 px-4 rounded">
+          <a href="/crud">CRUD</a>
+        </button>
+      </div>
+
+      <div className="flex justify-center space-x-4 mt-4">
+        <button className="bg-slate-500 hover:bg-slate-700 text-white w-48 font-bold py-2 px-4 rounded">
+          <a href="/grid"> Grid</a>
+        </button>
+        </div>
+        <div>
+         <button className="bg-red-500 hover:bg-red-700 text-white w-48 font-bold py-2 px-4 rounded mt-5">
+          <a href="/grid2"> Grid2</a>
+        </button>
+      </div>
+      <div>
+         <button className="bg-red-900 hover:bg-red-700 text-white w-48 font-bold py-2 px-4 rounded mt-5">
+          <a href="/ServerAction"> Server Actions</a>
+        </button>
+      </div>
+
+       <div>
+         <button className="bg-red-600 hover:bg-red-700 text-white w-48 font-bold py-2 px-4 rounded mt-5">
+          <a href="/calculadora"> Calculadora</a>
+        </button>
+      </div>
+        <div>
+         <button className="bg-purple-400 hover:bg-purple-700 text-white w-48 font-bold py-2 px-4 rounded mt-5">
+          <a href="/bhaskara"> Bhaskara</a>
+        </button>
+      </div>
+      <div className="flex justify-center space-x-4 mt-4">
+        <button className="bg-purple-200 hover:bg-purple-700 text-white w-48 font-bold py-2 px-4 rounded">
+          <a href="/celcius">Celcius</a>
+        </button>
+      </div>
+      <div className="flex justify-center space-x-4 mt-4">
+        <button className="bg-purple-400 hover:bg-purple-700 text-white w-48 font-bold py-2 px-4 rounded">
+          <a href="/minhasTarefas">Minhas Tarefas</a>
+        </button>
+      </div>
+      
+      <div className="flex justify-center space-x-4 mt-4">
+        <button className="bg-purple-700 hover:bg-purple-700 text-white w-48 font-bold py-2 px-4 rounded">
+          <a href="/crud2">crud2</a>
+        </button>
+      </div>
+      
+      
     </div>
   );
 }

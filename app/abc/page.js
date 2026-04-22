@@ -34,22 +34,22 @@ export default function abc() {
     <div className="flex flex-col items-center justify-center w-full h-auto m-5">
       <div className="items-center justify-center flex ">
 
-        <input className="border border-gray-500 bg-amber-50 w-20 h-10 ml-5"
+        <input className="border border-gray-500 bg-amber-50 w-20 h-10 ml-5 text-black"
           type="number"
           value={a}
-          onChange={(e) => setA(e.target.value)}
-          placeholder="A" />
-        <input className="border border-gray-500 bg-amber-50 ml-5 w-20 h-10"
+          onChange={(e) => setB(e.target.value)}
+           />
+        <input className="border border-gray-500 bg-amber-50 ml-5 w-20 h-10 text-black"
           type="number"
           value={b}
           onChange={(e) => setB(e.target.value)}
-          placeholder="B"/>
+          />
 
-       <input className="border border-gray-500 bg-amber-50 ml-5 w-20 h-10"
+       <input className="border border-gray-500 bg-amber-50 ml-5 w-20 h-10 text-black"
           type="number"
           value={c}
           onChange={(e) => setC(e.target.value)}
-          placeholder="C"/>
+          />
       </div>
       <div className="flex items-center justify-center flex-col w-full h-auto mt-5 ">
         <button 
